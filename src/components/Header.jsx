@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Link from "next/link";
-import { LifebuoyIcon, TicketIcon } from "@heroicons/react/20/solid";
 import { Logo } from "./Logo";
 
 const items = [
@@ -34,7 +33,7 @@ export function Header() {
 	return (
 		<header
 			className={clsx(
-				"fixed top-0 w-full z-50 px-8 flex items-center transition-all duration-300",
+				"fixed top-0 w-full z-50 px-8 flex items-center transition-all duration-300 overflow-auto",
 				isOpaque ? "backdrop-blur-lg bg-neutral-900/50" : "bg-transparent"
 			)}
 		>
@@ -46,7 +45,7 @@ export function Header() {
 			>
 				<li>
 					<Link href="/">
-						<a className="flex items-center">
+						<a className="flex items-center w-max">
 							{/* <img className="h-8 w-auto" src="/img/logo-oskar.png" /> */}
 							<Logo className="w-6 h-6"></Logo>
 							<span className="ml-1 block text-white font-medium text-base">

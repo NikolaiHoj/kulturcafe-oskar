@@ -50,7 +50,7 @@ export default function Home() {
 						alt="Sanne Bentsen giver den gas på scenen"
 					/>
 				</div>
-				<div className="absolute top-0 left-0 text-white flex flex-col justify-center px-16 h-full w-full z-10 text-left">
+				<div className="absolute top-0 left-0 text-white flex flex-col sm:justify-center px-8 sm:px-16 h-full w-full z-10 text-left py-20">
 					<h1 className="relative text-6xl font-extrabold">
 						Oplev den unikke stemning i Søby
 					</h1>
