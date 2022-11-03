@@ -7,7 +7,9 @@ export function MainLayout({ children, className }) {
 	return (
 		<>
 			<Header />
-			<main className={clsx("min-h-screen w-full", className)}>{children}</main>
+			<main className={clsx("min-h-screen w-full overflow-hidden", className)}>
+				{children}
+			</main>
 			<Footer />
 		</>
 	);
