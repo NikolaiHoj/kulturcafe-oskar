@@ -1,4 +1,5 @@
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 import React from "react";
 import { Logo } from "./Logo";
 
@@ -16,33 +17,32 @@ export function Footer() {
 					<h3 className="font-medium text-white mb-2">Links</h3>
 					<ul className="text-neutral-500 space-y-2">
 						<li>
-							<a href="/" className="text-neutral-500 hover:text-orange-400">
-								Forside
-							</a>
+							<Link href="/">
+								<a className="text-neutral-500 hover:text-orange-400">
+									Forside
+								</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="/program"
-								className="text-neutral-500 hover:text-orange-400"
-							>
-								Program
-							</a>
+							<Link href="/program">
+								<a className="text-neutral-500 hover:text-orange-400">
+									Program
+								</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="/arrangement"
-								className="text-neutral-500 hover:text-orange-400"
-							>
-								Arrangementer
-							</a>
+							<Link href="/arrangement">
+								<a className="text-neutral-500 hover:text-orange-400">
+									Arrangementer
+								</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="/udlejning"
-								className="text-neutral-500 hover:text-orange-400"
-							>
-								Udlejning
-							</a>
+							<Link href="/udlejning">
+								<a className="text-neutral-500 hover:text-orange-400">
+									Udlejning
+								</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
