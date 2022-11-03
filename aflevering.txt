@@ -1,0 +1,3 @@
+kulturcafe-oskar: https://kulturcafe-oskar.vercel.app/
+makkerskabsside: https://sites.google.com/view/cafeoskar/start
+koden er her: https://github.com/NikolaiHoj/kulturcafe-oskar
